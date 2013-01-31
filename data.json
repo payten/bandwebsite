@@ -1,0 +1,56 @@
+{
+	"music": [
+	],
+	"gigs" : {
+			"2012": [
+				{
+					"label": "14.4",
+					"date": "14.April.2012",
+					"content": "<p>The Front Gallery and Cafe</p><p>ON THE EDGE - fundraiser gig for children in East Timor</p><p>Bruges on stage at 6pm.</p>"
+				},
+				{
+					"label": "3.5",
+					"date": "3.May.2012",
+					"content": "<p>Free</p><p>At 39 Steps, O'Connor Shops</p><p>Bands from 8pm.</p><p>Bruges on stage at 9pm.</p>"
+				},
+		    {
+		            "label": "27.8",
+		            "date": "27.August.2012",
+		            "content": "<p>Bootleg Sessions at the Phoenix</p><p>Bruges on stage after 10pm.</p><p><img class='poster' src='27.8.jpg' alt='27 august poster'/></p><p><a href='http://www.facebook.com/events/354203601325774/'><img src='fb.png' alt='facebook link icon'/></a></p>"
+		    },
+		    {
+		            "label": "13.9",
+		            "date": "13.September.2012",
+		            "content": "<p>Free</p><p>At 39 Steps, O'Connor Shops</p><p>Bands from 8pm.</p><p>More details to come.</p>"
+		    },
+		    {
+		            "label": "26.11",
+		            "date": "26.November.2012",
+		            "content": "<p>Bootleg Sessions at the Phoenix</p><p>Bruges on stage after 9:30pm</p>"
+		    },
+		    {
+		            "label": "13.12",
+		            "date": "13.December.2012",
+		            "content": "<p>Thursday night at the Phoenix</p><p>Supporting Elysia Bones and Positive Feedback Loop</p><p>Bruges on around 10pm</p>"
+		    }
+			],
+		"2013": [
+				{
+		            "label": "21.01",
+		            "date": "21.January.2013",
+		            "content": "<p>Bootleg Sessions at the Phoenix</p><p>Bruges on stage after 10pm</p>"
+		    }
+		]
+	},
+	"links": [
+		{
+			"label": "<img src='fb.png' alt='facebook link icon'/>",
+			"link": "http://www.facebook.com/brugestheband"
+		},
+		{
+			"label": "Contact Bruges",
+			"link": "mailto:themanager@brugestheband.com",
+			"email": true
+		}
+	]
+}

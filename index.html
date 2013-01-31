@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>bruges | the band</title>
+	<link href="1140.css" rel="stylesheet" type="text/css">
+	<link href="bruges.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="googlebot" content="nosnippet">
+    <meta name="description" content="Bruges is a band from Canberra, Australia.  Melding indy rock and pshycodelic dreams, Bruges live is worth checking out."
+</head>
+
+<body>
+	<div class="container">
+	    <div class="row">
+    		<div class="twelvecol content">
+                <header>
+                    <h1>Bruges</h1>
+                </header>
+                <section id="foo">
+                
+                </section>
+                <nav>
+                    <div id="songs" class="nav-set">
+                        <div class="title">Music</div>
+                        <ul class="horizontal">
+            
+                        </ul>
+                    </div>
+                    <div id="gigs" class="nav-set">
+
+                    </div>
+                    <div id="links" class="nav-set">
+                        <div class="title">Links</div>
+                        <div class="links-container"></div>
+                    </div>   
+                </nav>
+                
+                <div id="gigInfo"></div>
+			</div>
+		</div>
+	</div>    
+    
+    <div id="music_item_template"></div>
+    <textarea id="gigs_item_template" style="display:none;">
+       <div class="gigs-for-a-year">
+          <div class="title">${year}</div>
+          <div class="gigs-container">
+             <ul class="horizontal">
+              	{for gig in gigs}
+          			<li><a href="javascript:void(0);" data-year="${year}">${gig.label}</a></li>
+                  {/for}
+              </ul>
+          </div>
+       </div>
+   	</textarea>
+    <textarea id="link_item_template" style="display:none;">
+    	<ul class="horizontal">
+            <li><a id="hitbrugeup" href="javascript:void(0);">Contact Bruges</a></li>         	
+    	</ul>
+    </textarea>
+    <textarea id="gig_template" style="display:none;">
+    	<div class="gig-details">
+    		<h3>${date}</h3>
+	        <a href="javascript:void(0)" class="close-me">Close</a>
+            ${content}
+        </div>
+    </textarea>
+    <textarea id="contact_template" style="display:none;">
+    	<div class="gig-details">
+    		<h3>Contact Us</h3>
+	        <a href="javascript:void(0)" class="close-me">Close</a>
+             ${email_1}@${email_2}.com
+        </div>
+    </textarea>       
+    <script src="jquery.min.js"></script>
+    <script src="jquery.color.js"></script>
+    <script src="trimpath.js"></script>
+    <script src="bruges.min.js"></script>    
+</body>
+</html>

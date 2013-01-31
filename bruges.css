@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'BonvenoCFLight';
+    src: url('fonts/BonvenoCF-Light-webfont.eot');
+    src: url('fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('fonts/BonvenoCF-Light-webfont.svg#BonvenoCFLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #000;
+	color: #FFF;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+body.white {
+	background-color: #FFF;
+	color: #000;
+}
+
+.content {
+	position: relative;	
+}
+
+h1 {
+	margin-top: 20px;
+	background-repeat: no-repeat;
+	text-indent: -100000px;
+	margin-bottom: 20px;
+	width: 388px;
+	height: 88px;
+}
+
+.black h1 {
+	background-image: url(logo_black.png);
+}
+
+.white h1 {
+	background-image: url(logo_white.png);
+}
+
+ul.horizontal {
+	margin:0;
+	padding:0;
+}
+
+ul.horizontal li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav {
+	padding-top: 10px;	
+}
+
+nav .title {
+	float: left;
+	width: 80px;
+	font-weight: bold;
+}
+
+nav .nav-set {
+	clear: both;
+	overflow: hidden;
+	margin-top: 5px;
+}
+
+#foo {
+	background-color: #000;	
+}
+
+.white #foo {
+	background-color: #FFF;	
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+}
+
+nav a:hover {
+	text-decoration: line-through;
+}
+
+.black a {
+	color: #FFF;
+}
+
+.white a {
+	color: #000;	
+}
+
+#gigInfo {
+	background-color: #FFFFFF;
+    left: 420px;
+    position: absolute;
+    top: 0;
+	display: none;
+}
+
+.white #gigInfo {
+	background-color: #000;
+}
+
+#gigInfo .gig-details {
+	padding: 20px;
+	padding-top: 120px;
+}
+
+#gigs {
+  height: auto;
+}
+
+.black #gigInfo,
+.black #gigInfo a {
+	color: #000;
+}
+
+.white #gigInfo,
+.white #gigInfo a {
+	color: #FFF;
+}
+
+#gigInfo h3 {
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+	padding-bottom: 5px
+}
+
+.white #gigInfo h3 {
+	border-color: #FFF;
+}
+
+#gigInfo .close-me {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#gigInfo p {
+	margin-bottom: 10px;
+}
+
+.gigs-for-a-year {
+  clear: both;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+#links {
+  margin: 0;
+  overflow: hidden;
+}
+
+#foo {
+	position: relative;	
+}
+
+.theboxes .box {
+	position: absolute;
+	background-color: #FFF;
+	opacity: 0;
+	border-radius: 30px;
+}
